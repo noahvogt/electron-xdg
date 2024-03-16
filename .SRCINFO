@@ -1,11 +1,12 @@
 pkgbase = electron-xdg
 	pkgdesc = Meta package providing the latest available stable Electron build - patched to support the xdg basedir spec
 	pkgver = 29
-	pkgrel = 1
+	pkgrel = 2
 	epoch = 1
 	url = https://electronjs.org
 	arch = any
 	license = MIT
 	depends = electron29-xdg
+	conflicts = electron
 
 pkgname = electron-xdg
