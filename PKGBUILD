@@ -2,7 +2,7 @@
 # Maintainer: Bruno Pagani <archange@archlinux.org>
 
 pkgver=29
-pkgrel=2
+pkgrel=3
 epoch=1
 pkgname=electron-xdg
 pkgdesc='Meta package providing the latest available stable Electron build - patched to support the xdg basedir spec'
@@ -11,6 +11,7 @@ url='https://electronjs.org'
 license=(MIT)
 depends=("electron$pkgver-xdg")
 conflicts=("electron")
+provides=("electron")
 
 package() {
 	mkdir -p "$pkgdir/usr/bin" "$pkgdir/usr/lib"
