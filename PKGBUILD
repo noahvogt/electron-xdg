@@ -2,7 +2,7 @@
 # Maintainer: Bruno Pagani <archange@archlinux.org>
 
 pkgver=30
-pkgrel=1
+pkgrel=2
 epoch=1
 pkgname=electron-xdg
 pkgdesc='Meta package providing the latest available stable Electron build - patched to support the xdg basedir spec'
